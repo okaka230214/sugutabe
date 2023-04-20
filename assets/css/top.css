@@ -247,7 +247,9 @@ position: absolute;
 }
 
 /* section-reason */
-
+.section-reason{
+  padding-top:80px
+}
 .section-reason__container {
   display: flex;
 }
@@ -465,6 +467,9 @@ padding-right: 20px;
 
 
 /* section-voice */
+.section-voice{
+  padding-top: 80px;
+}
 .section-voice__disc {
   padding-top: 64px;
   padding-bottom: 40px;
