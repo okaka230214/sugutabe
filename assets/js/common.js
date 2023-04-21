@@ -44,7 +44,7 @@
   $(function(){
     function sliderSetting(){
           var width = $(window).width();
-                console.log($(window).width());
+                // console.log($(window).width());
         if(width <= 1160){
           // スマートフォンの場合
           $('#slick-slide2').slick({
@@ -54,11 +54,11 @@
             centerMode:true,
             infinite:false
           });
-                  console.log("スマホ");
+                  // console.log("スマホ");
         } else {
             // pcの場合
             $('.slick-box.onlysp.slick-initialized').slick('unslick');
-            console.log("PC");
+            // console.log("PC");
         }
     }
     sliderSetting();
@@ -102,9 +102,9 @@ $(function showSetting(){
     var $hn =$('.header nav');
     var width = $(window).width();
     if (width <= 1160){
-      console.log("スマホ用表示");
+      // console.log("スマホ用表示");
     } else{
-      console.log("PC表示");
+      // console.log("PC表示");
     $hn.removeAttr('style');
     }
   });
