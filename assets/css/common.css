@@ -6,7 +6,7 @@
   font-size: 62.5%; /* 16px * 62.5% = 10px */
 
   /* TODO:あとで代替フォントを追加する */
-  --change-font-family: 'FOT-筑紫A丸ゴシック Std';
+  --change-font-family: font-family: "fot-tsukuardgothic-std", sans-serif;
   --normal-font-family: '游ゴシック体', YuGothic, '游ゴシック', 'Yu Gothic',
     'メイリオ', sans-serif;
   --accent-color: #d31b33;
