@@ -350,7 +350,7 @@ position: absolute;
   color: var(--color-white);
 }
 .section-quality-assurance__contents-wrapper h3 {
-  padding-bottom: 40px;
+  padding-bottom: 32px;
 }
 .section-quality-assurance__contents-wrapper p {
   padding-bottom: 48px;
@@ -372,7 +372,7 @@ position: absolute;
   padding-bottom: 64px;
 }
 .section-contract-farmer__contents-wrapper h3 {
-  padding-bottom: 48px;
+  padding-bottom: 32px;
 }
 .section-contract-farmer__card-wrapper {
   /*
