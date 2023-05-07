@@ -52,14 +52,14 @@ margin-left: 20px;
   border-radius: 100vh;
   background-color: var(--accent-color);
   border: 1px solid var(--accent-color);
-  padding:3px;
+  padding: 8px 20px 8px 20px;
 }
 .navigation-list a span:hover {
   color: var(--accent-color);
   border-radius: 100vh;
-  background-color: var(--color-white);
+  background-color: transparent;
   border: 1px solid var(--accent-color);
-  padding:3px;
+  padding: 8px 20px 8px 20px;
 opacity: 0.9;}
 
 @media(max-width:1160px){
@@ -656,7 +656,6 @@ padding-bottom: 32px;
 }
 .section-trial__btn-bg {
   transition: all 0.3s;
-  padding: 16px 48px;
 }
 .section-trial__btn-bg,
 button.section-trial__btn-bg {
@@ -666,8 +665,7 @@ button.section-trial__btn-bg {
   font-size: var(--h3-font-size);
   line-height: var(--h2-font-size);
   font-weight: var(--font-weight-bold);
-  padding-right: 20px;
-  padding-left: 20px;
+  padding:16px 40px 16px 40px
 }
 .section-trial__btn-bg:hover,
 .button.section-trial__btn-bg:hover {
@@ -714,7 +712,6 @@ button.section-trial__bt-radius {
   color: var(--color-black);
 }
 .footer a:hover {
-
   color: var(--accent-color);
 }
 
